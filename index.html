@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html></html>
-  <head>
-    <title>Google</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul class="top-left"> <!-- Top left side of nav bar -->
-          <li><a href="#">About</a></li>
-          <li><a href="#">Store</a></li>
-        </ul>
-        <ul class="top-right"> <!-- Top right side of nav bar -->
-          <li><a href="#">Gmail</a></li>
-          <li><a href="#">Images</a></li>
-          <li><a href="#"><svg class="nav-img" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg><img src="#" alt=""></a></li>
-          <li><a href="#"><img src="img/profile-picture.png" alt="current Google user's profile picture" class="nav-img"></a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <img src="img/google-logo.png" alt="Google company logo" class="google-main-img">
-      <input type="text" name="search-bar" id="search-bar">
-      <div class="search-buttons">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
-      </div>
-    </main>
+<html>
+  <div class="flex-wrapper">
+    <head>
+      <title>Google</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <header>
+        <nav id="navbar">
+          <div class="top-left">
+            <ul> <!-- Top left side of nav bar -->
+              <li><a href="#">About</a></li>
+              <li><a href="#">Store</a></li>
+            </ul>
+          </div>
+          <div class="top-right">
+            <ul> <!-- Top right side of nav bar -->
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Images</a></li>
+              <li><a href="#"><svg class="nav-img" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg><img src="#" alt=""></a></li>
+              <li><a href="https://github.com/verike1996/" target="blank"><img src="img/profile-picture.png" alt="current Google user's profile picture" class="nav-img"></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      
+      <main>
+        <img src="img/google-logo.png" alt="Google company logo" class="google-main-img">
+        <input type="text" name="search-bar" id="search-bar">
+        <div class="search-buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+      </main>
 
-    <footer>
-      <ul class="bottom-left"> <!-- Bottom left side of nav bar -->
-        <li><a href="#">Advertising</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">How Search Works</a></li>
-      </ul>
-      <p class="bottom-middle"><img src="img/carbon-neutral.png" alt="a graphic of a leaf">Carbon neutral since 2007</p>
-      <ul class="bottom-right"> <!-- Bottom right side of nav bar -->
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Settings</a></li>
-      </ul>
-    </footer>
-  </body>
+      <footer>
+        <ul class="bottom-left"> <!-- Bottom left side of nav bar -->
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search Works</a></li>
+        </ul>
+        <p class="bottom-middle"><img src="img/carbon-neutral.png" alt="a graphic of a leaf">Carbon neutral since 2007</p>
+        <ul class="bottom-right"> <!-- Bottom right side of nav bar -->
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </footer>
+    </body>
+</div>
 </html>

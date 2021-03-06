@@ -3,17 +3,59 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 /* Element Styles */
 
 main {
     display: block;
 }
 
+header {
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+}
+
 /* Class Styles */
+
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
 
 .nav-img {
     width: 50px;
     height: 50px;
+    padding: 10px;
 }
 
 .google-main-img {
@@ -21,12 +63,28 @@ main {
     margin: auto;
 }
 
+.bottom-middle {
+    float: center;
+}
+
+.bottom-right {
+    float: right;
+}
+
+.bottom-left {
+    float: left;
+}
+
 /* ID Styles */
 
 #search-bar {
     display: flex;
     margin: auto;
-    width: 35%;
-    height: 50px;
-    border-radius: ;
+    width: 560px;
+    height: 39px;
+    border-radius: 75px 75px 75px 75px;
+}
+
+#navbar {
+    width: 100%;
 }
