@@ -15,6 +15,7 @@ html {
 
 main {
     display: block;
+    margin: auto;
 }
 
 header {
@@ -27,12 +28,12 @@ header {
 nav {
     display: block;
     width: 100%;
-    align-items: center;
 }
 
 footer {
     position: absolute;
     bottom: 0px;
+    width: 100%;
     display: block;
     flex-direction: row;
 }
@@ -40,6 +41,16 @@ footer {
 ul {
     display: flex;
     padding: 10px;
+}
+
+li {
+
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: none;
 }
 
 /* Class Styles */
@@ -63,6 +74,12 @@ ul {
     margin: auto;
 }
 
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .bottom-middle {
     float: center;
 }
@@ -82,7 +99,7 @@ ul {
     margin: auto;
     width: 560px;
     height: 39px;
-    border-radius: 75px 75px 75px 75px;
+    border-radius: 75px;
 }
 
 #navbar {
