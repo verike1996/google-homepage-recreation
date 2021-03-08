@@ -17,6 +17,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-self: center;
 }
 
 header {
@@ -45,9 +46,7 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    display: block;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
     background-color: #f2f2f2;
     color: #70757a;
 }
@@ -97,22 +96,22 @@ button {
 }
 
 .bottom-middle {
-    float: center;
+    text-align: center;
 }
 
 .bottom-right {
-    float: right;
+    margin-left: auto;
 }
 
 .bottom-left {
-    float: left;
+    margin-right: auto;
 }
 
 .main-wrapper {
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+
 }
 
 /* ID Styles */
