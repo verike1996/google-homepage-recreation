@@ -71,6 +71,12 @@ button {
 
 /* Class Styles */
 
+.magnifying-glass-img,
+.microphone-img {
+    height: 25px;
+    width: 25px;
+}
+
 .top-left {
     float: left;
 }
