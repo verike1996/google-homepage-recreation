@@ -68,22 +68,6 @@ li {
     padding-left: 10px;
 }
 
-button {
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    border-radius: 4px;
-    color: #3c4043;
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    font-size: 14px;
-    font-family: arial, sans-serif;
-    text-align: center;
-    height: 36px;
-}
-
-
-
 /* Class Styles */
 
 .magnifying-glass-img,
@@ -139,6 +123,7 @@ button {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 15px;
 }
 
 .bottom-middle {
@@ -198,6 +183,25 @@ button {
     border: 1px solid #ddd;
 }
 
+.google-button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    border-radius: 4px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    height: 36px;
+}
+
+.search-main-wrapper {
+    padding: 20px;
+}
+
+
 /* ID Styles */
 
 #search-bar {
@@ -206,7 +210,6 @@ button {
     border: none;
     font-size: 16px;
 }
-
 
 /* Specific Selectors */
 
@@ -247,12 +250,17 @@ footer a {
 
  .searchbar:hover,
  .searchbar:focus-within {
-  border-color: white;
-  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+     border-color: white;
+     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 #search-bar:focus-within {
-    outline: none;
+     outline: none;
+}
+
+.google-button:hover {
+     border-color: #dadce0;
+     box-shadow: 0 1px 1px rgb(0 0 0 / 10%)
 }
 
 
