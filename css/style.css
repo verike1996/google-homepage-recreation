@@ -32,7 +32,7 @@ a {
 }
 
 nav {
-    position: absolute;
+    position: relative;
     top: 0px;
     width: 100%;
     display: flex;
@@ -67,9 +67,17 @@ li {
 }
 
 button {
-    margin: 20px;
-    padding: 10px;
-    box-shadow: none;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    border-radius: 4px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border: 1px solic #f8f9fa;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    height: 36px;
 }
 
 
@@ -93,11 +101,13 @@ button {
 }
 
 .top-left {
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
 .top-right {
-    float: right;
+    display: flex;
+    align-items: center;
 }
 
 .nav-img {
@@ -130,12 +140,14 @@ button {
 
 .bottom-middle {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .bottom-right {
-    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom-left {
