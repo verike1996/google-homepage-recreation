@@ -317,4 +317,8 @@ footer a {
     .bottom-right {
         align-items: center;
     }
+
+    .searchbar {
+        width: 85vw;
+    }
 }
