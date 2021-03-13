@@ -289,6 +289,7 @@ footer a {
 
     .bottom-left {
         grid-area: left;
+        justify-content: flex-start;
     }
 
     .bottom-right {
